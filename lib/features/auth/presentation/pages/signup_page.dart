@@ -48,6 +48,7 @@ class _SignUpPageState extends State<SignUpPage> {
             if (state is AuthLoading) {
               return const Loader();
             }
+
             return Form(
               key: _formKey,
               child: Column(
