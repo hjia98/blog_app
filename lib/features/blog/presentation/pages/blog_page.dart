@@ -27,7 +27,7 @@ class _BlogPageState extends State<BlogPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Blog'),
+        title: const Text('Blog App'),
         actions: [
           IconButton(
             onPressed: () {
